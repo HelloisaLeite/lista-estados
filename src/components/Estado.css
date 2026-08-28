@@ -1,0 +1,27 @@
+.estado-card {
+    border: 1px solid #ddcc32cc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 260px;
+    box-sizing: border-box;
+    background-color: var(--card-color);
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados h2 {
+  margin: 0 0 10px;
+}
+
+.dados h3 {
+  margin: 0 0 15px;
+}
+
+.dados p {
+  margin: 0;
+}
